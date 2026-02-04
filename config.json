@@ -1,0 +1,50 @@
+{
+  "Balanced": {
+    "cpu": "30c:30%,40c:60%,59c:70%,69c:80%,79c:90%,89c:95%,99c:98%,109c:100%",
+    "gpu": "30c:30%,49c:50%,59c:70%,69c:80%,79c:90%,89c:95%,90c:98%,100c:100%",
+    "tctl-temp": 85,
+    "apu-skin-temp": 45,
+    "dgpu-skin-temp": 50,
+    "skin-temp-limit": 7000,
+    "stapm-limit": 1800,
+    "stapm-time": 22,
+    "slow-limit": 1800,
+    "slow-time": 25,
+    "fast-limit": 2200,
+    "apu-slow-limit": 2200,
+    "set-coall": 5,
+    "set-cogfx": 3
+  },
+  "Performance": {
+    "cpu": "30c:30%,40c:60%,59c:70%,69c:80%,79c:90%,89c:95%,99c:98%,109c:100%",
+    "gpu": "30c:30%,49c:50%,59c:70%,69c:80%,79c:90%,89c:95%,90c:98%,100c:100%",
+    "tctl-temp": 95,
+    "apu-skin-temp": 50,
+    "dgpu-skin-temp": 55,
+    "skin-temp-limit": 9000,
+    "stapm-limit": 2500,
+    "stapm-time": 28,
+    "slow-limit": 2500,
+    "slow-time": 30,
+    "fast-limit": 3000,
+    "apu-slow-limit": 3000,
+    "set-coall": 0,
+    "set-cogfx": 0
+  },
+  "Quiet": {
+    "cpu": "30c:30%,40c:60%,59c:70%,69c:80%,79c:90%,89c:95%,99c:98%,109c:100%",
+    "gpu": "30c:30%,49c:50%,59c:70%,69c:80%,79c:90%,89c:95%,90c:98%,100c:100%",
+    "tctl-temp": 75,
+    "apu-skin-temp": 40,
+    "dgpu-skin-temp": 45,
+    "skin-temp-limit": 7000,
+    "stapm-limit": 4000,
+    "stapm-time": 18,
+    "slow-limit": 2500,
+    "slow-time": 20,
+    "fast-limit": 6000,
+    "apu-slow-limit": 4500,
+    "set-coall": 10,
+    "set-cogfx": 5
+  }
+}

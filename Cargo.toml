@@ -1,0 +1,16 @@
+[package]
+name = "artui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.27"
+ratatui = "0.26"
+serde = { version = "1.0", features = ["derive"] }
+json5 = "0.4"
+anyhow = "1.0"
+dirs = "5"
+indexmap = { version = "2", features = ["serde"] }
+serde_json = { version = "1", features = ["preserve_order"]}
+which = "6"
+libc = "0.2"
