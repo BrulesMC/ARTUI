@@ -20,4 +20,8 @@ This project will modify your sudoers configuration to allow it to function. Rev
 
 ⚠️ Stability notice
 This project uses ryzenadj in a configuration that is sometimes unstable, depending on the power limits and current load.
-Profile changes may cause system instability or crashes. This is a known limitation that can not be tested without access to non 6000 series proccessors.
+Profile changes may cause system instability or crashes if the load is to heavy and the limits are low.
+This appers to come from the system load balancing while shifting the min power.
+This makes proccess move at the higher limit while they have no applied yet and the lower is still active.
+This may be fixable but would require suspending proceess and may be system specific.
+For now have load low when switching profiles to higher limits.
